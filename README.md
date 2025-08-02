@@ -1,2 +1,2 @@
 # EAL201
-# EAL201
+# Introduction to AI & ML
