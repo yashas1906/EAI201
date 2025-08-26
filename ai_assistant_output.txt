@@ -1,0 +1,12 @@
+AI Assistant for Standard Grade Assignment
+Enter the student ID: 341
+Enter the subject: intro to aiml
+Enter the marks: 95
+Grade assigned based on marks:
+Student ID: 341
+Subject: intro to aiml
+Marks: 95
+Grade: A+
+Thank you for using the AI Assistant
+
+=== Code Execution Successful ===
