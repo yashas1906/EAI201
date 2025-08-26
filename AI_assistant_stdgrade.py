@@ -1,6 +1,6 @@
 print("AI Assistant for Standard Grade Assignment")
 student_id = int(input("Enter the student ID: "))
-subject = int(input("Enter the subject: "))
+subject = input("Enter the subject: ")
 marks = int(input("Enter the marks: "))
 if marks > 85 or marks <= 100:
     grade = 'A+'
