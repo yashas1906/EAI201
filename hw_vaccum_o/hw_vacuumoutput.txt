@@ -1,0 +1,87 @@
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 1
+The vacuum has started running
+1. Solid 
+2. Liquid
+3. Back to commands
+Choose the option to select the categories: 1
+1. Dust
+2. Rocks/Papers
+3. Others 
+Choose the type of the solid: 1
+The vacuum is sucking the dust
+The shape of the vacuum has changed to rectangle
+
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 2
+The vacuum has turned to the left side
+
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 3
+The vacuum has turned to the right side
+
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 4
+The vacuum is at rest
+
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 1
+The vacuum has started running
+1. Solid 
+2. Liquid
+3. Back to commands
+Choose the option to select the categories: 2
+1. Water
+2. Beverage
+3. Others
+Choose the type of the liquid: 1
+The vacuum is sucking the water
+The shape of vacuum has changed to funnel
+
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 1
+The vacuum has started running
+1. Solid 
+2. Liquid
+3. Back to commands
+Choose the option to select the categories: 2
+1. Water
+2. Beverage
+3. Others
+Choose the type of the liquid: 2
+The vacuum is sucking the beverage
+The shape of vacuum has changed to funnel
+
+    1. Start
+    2. Left
+    3. Right
+    4. Dock
+    5. Stop
+Choose the command to be instructed: 5
+The vacuum has stopped
+
+=== Code Execution Successful ===
