@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotBrain - Chanakya University Navigator</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --dark-bg: #1e2124; --dark-bg-secondary: #282b30; --dark-bg-tertiary: #36393e; --text-light: #e0e0e0; --text-muted: #a0a0a0; --accent-blue: #0095ff; --accent-blue-hover: #0077cc; --accent-gray: #6c757d; --accent-gray-hover: #5a6268; --border-color: #424549; }
+        body { font-family: 'Poppins', sans-serif; margin: 0; display: flex; height: 100vh; background-color: var(--dark-bg); color: var(--text-light); }
+        #sidebar { width: 380px; padding: 25px; background-color: var(--dark-bg-secondary); box-shadow: 4px 0 15px rgba(0,0,0,0.2); overflow-y: auto; display: flex; flex-direction: column; border-right: 1px solid var(--border-color); }
+        #map { flex-grow: 1; height: 100%; }
+        h1, h2 { color: #ffffff; text-align: center; font-weight: 600; }
+        h1 { font-size: 28px; margin-bottom: 30px; }
+        h2 { font-size: 22px; margin-bottom: 20px; border-top: 1px solid var(--border-color); padding-top: 20px; }
+        .control-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; font-weight: 500; color: var(--text-muted); font-size: 14px; }
+        select, button, input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border-color); background-color: var(--dark-bg-tertiary); color: var(--text-light); font-size: 16px; font-family: 'Poppins', sans-serif; box-sizing: border-box; }
+        select { -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23a0a0a0%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-13%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2013l128%20127.9c3.6%203.6%207.8%205.4%2013%205.4s9.4-1.8%2013-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-13%200-5-1.9-9.4-5.4-13z%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 15px top 50%; background-size: .65em auto; padding-right: 40px; }
+        .button-group { display: flex; gap: 10px; }
+        button { background-color: var(--accent-blue); font-weight: 600; border: none; cursor: pointer; transition: all 0.2s ease; }
+        button:hover { background-color: var(--accent-blue-hover); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0, 149, 255, 0.2); }
+        button.secondary { background-color: var(--accent-gray); }
+        button.secondary:hover { background-color: var(--accent-gray-hover); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+        #results { margin-top: 20px; padding: 15px; background-color: var(--dark-bg); border-radius: 8px; border: 1px solid var(--border-color); }
+        #results p { margin: 8px 0; font-size: 15px; }
+        #results p strong { color: #ffffff; font-weight: 500; }
+        .chatbot-container { margin-top: auto; padding-top: 20px; }
+        #chat-window { height: 200px; border: 1px solid var(--border-color); background-color: var(--dark-bg); padding: 10px; overflow-y: auto; margin-bottom: 15px; display: flex; flex-direction: column; }
+        #chat-input { display: flex; gap: 10px; }
+        #chat-input input::placeholder { color: var(--text-muted); }
+        .user-msg, .bot-msg { padding: 10px 15px; border-radius: 18px; max-width: 85%; word-wrap: break-word; margin-bottom: 10px; font-size: 15px; line-height: 1.4; }
+        .user-msg { background-color: var(--accent-blue); color: white; align-self: flex-end; border-bottom-right-radius: 4px; }
+        .bot-msg { background-color: var(--dark-bg-tertiary); color: var(--text-light); align-self: flex-start; border-bottom-left-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h1>BotBrain Navigator</h1>
+        <div class="control-group"><label for="start-loc">Start Location</label><select id="start-loc"></select></div>
+        <div class="control-group"><label for="end-loc">Destination</label><select id="end-loc"></select></div>
+        <div class="control-group">
+            <label for="algorithm">Search Algorithm</label>
+            <select id="algorithm">
+                <option value="find_best">Optimal Route (Recommended)</option>
+                <option value="a_star">A* Search</option>
+                <option value="ucs">Uniform Cost Search (UCS)</option>
+                <option value="bfs">Breadth-First Search (BFS)</option>
+                <option value="dfs">Depth-First Search (DFS)</option>
+            </select>
+        </div>
+        <div class="button-group">
+            <button id="find-path-btn">Find Path</button>
+            <button id="reset-btn" class="secondary">Reset</button>
+        </div>
+        <div id="results"><p>Select your start and end points to see the path here.</p></div>
+        <div class="chatbot-container">
+            <h2>Campus Chatbot</h2>
+            <div id="chat-window"></div>
+            <div id="chat-input"><input type="text" id="user-input" placeholder="Ask or navigate..."><button id="send-btn">Send</button></div>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script>
+        const campusCenter = [13.2245, 77.757]; 
+        const map = L.map('map').setView(campusCenter, 17);
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri'
+        }).addTo(map);
+
+        let pathPolyline = null;
+        const initialResultsText = "<p>Select your start and end points to see the path here.</p>";
+
+        const startLocSelect = document.getElementById('start-loc'), endLocSelect = document.getElementById('end-loc'),
+              algorithmSelect = document.getElementById('algorithm'), findPathBtn = document.getElementById('find-path-btn'),
+              resetBtn = document.getElementById('reset-btn'), resultsDiv = document.getElementById('results'),
+              chatWindow = document.getElementById('chat-window'), userInput = document.getElementById('user-input'),
+              sendBtn = document.getElementById('send-btn');
+        
+        async function setup() {
+            try {
+                const response = await fetch('/api/locations');
+                const locations = await response.json();
+                const locationNames = Object.keys(locations).filter(name => !name.startsWith('J')).sort();
+                
+                startLocSelect.innerHTML = '<option value="" disabled selected>Select a starting point</option>';
+                endLocSelect.innerHTML = '<option value="" disabled selected>Select a destination</option>';
+                
+                locationNames.forEach(name => {
+                    startLocSelect.add(new Option(name, name));
+                    endLocSelect.add(new Option(name, name));
+                    const [lat, lon] = locations[name];
+                    L.marker([lat, lon]).addTo(map).bindPopup(`<b>${name}</b>`);
+                });
+            } catch (error) { resultsDiv.innerHTML = `<p style="color: red;">Error: Could not load campus data.</p>`; }
+        }
+
+        function resetApp() {
+            startLocSelect.selectedIndex = 0; endLocSelect.selectedIndex = 0; algorithmSelect.selectedIndex = 0;
+            if (pathPolyline) { map.removeLayer(pathPolyline); pathPolyline = null; }
+            resultsDiv.innerHTML = initialResultsText; map.setView(campusCenter, 17);
+        }
+        
+        async function findPath() {
+            const start = startLocSelect.value, end = endLocSelect.value, algorithm = algorithmSelect.value;
+            if (!start || !end) { resultsDiv.innerHTML = `<p style="color: orange;">Please select both a start and destination.</p>`; return; }
+            resultsDiv.innerHTML = `<p>Calculating path...</p>`;
+            
+            if (pathPolyline) { map.removeLayer(pathPolyline); pathPolyline = null; }
+
+            try {
+                const response = await fetch('/api/navigate', {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ start, end, algorithm })
+                });
+                if (!response.ok) { throw new Error((await response.json()).error || 'Path not found.'); }
+                const data = await response.json();
+                resultsDiv.innerHTML = `<p><strong>Path:</strong> ${data.path}</p><p><strong>Distance:</strong> ${data.distance} meters</p><p><strong>Est. Time:</strong> ${data.time} minutes</p><p><strong>Algorithm Used:</strong> ${data.algorithm}</p><p><strong>Nodes Explored:</strong> ${data.nodes_explored}</p>`;
+                pathPolyline = L.polyline(data.path_coords, { color: 'yellow', weight: 5, opacity: 0.9 }).addTo(map);
+                map.fitBounds(pathPolyline.getBounds().pad(0.1));
+            } catch (error) {
+                resultsDiv.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+        
+        // --- START: ADDED CHATBOT FUNCTIONS ---
+        function appendMessage(text, type) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = type === 'user' ? 'user-msg' : 'bot-msg';
+            msgDiv.textContent = text;
+            chatWindow.appendChild(msgDiv);
+            chatWindow.scrollTop = chatWindow.scrollHeight; // Auto-scroll to the latest message
+            return msgDiv;
+        }
+
+        async function handleChat() {
+            const userText = userInput.value.trim();
+            if (!userText) return;
+
+            appendMessage(userText, 'user');
+            userInput.value = '';
+            
+            const thinkingMsg = appendMessage("BotBrain is thinking...", 'bot');
+
+            try {
+                const response = await fetch('/api/chatbot', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: userText })
+                });
+
+                chatWindow.removeChild(thinkingMsg); // Remove "thinking..." message
+
+                if (!response.ok) {
+                    throw new Error('Failed to get a response from the server.');
+                }
+                
+                const data = await response.json();
+
+                if (data.action === 'navigate') {
+                    appendMessage(`Okay, finding the best route from ${data.parameters.start} to ${data.parameters.end}.`, 'bot');
+                    startLocSelect.value = data.parameters.start;
+                    endLocSelect.value = data.parameters.end;
+                    algorithmSelect.value = 'find_best'; // Default to best route
+                    findPath();
+                } else if (data.action === 'reset') {
+                     appendMessage("Okay, I've cleared the map and selections for you.", 'bot');
+                     resetApp();
+                } else if (data.answer) {
+                    appendMessage(data.answer, 'bot');
+                } else {
+                    throw new Error("Received an empty response from the bot.");
+                }
+
+            } catch (error) {
+                chatWindow.removeChild(thinkingMsg);
+                appendMessage(`Sorry, something went wrong: ${error.message}`, 'bot');
+            }
+        }
+        // --- END: ADDED CHATBOT FUNCTIONS ---
+        
+        findPathBtn.addEventListener('click', findPath);
+        resetBtn.addEventListener('click', resetApp);
+        sendBtn.addEventListener('click', handleChat);
+        userInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') { handleChat(); } });
+        document.addEventListener('DOMContentLoaded', setup);
+    </script>
+</body>
+</html>
