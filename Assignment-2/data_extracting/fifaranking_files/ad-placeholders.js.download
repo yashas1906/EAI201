@@ -1,0 +1,21 @@
+window.addEventListener('load', () => {
+    const placerholders = document.querySelectorAll('[data-ad-placeholder]');
+    const adSlotsIds = [];
+    placerholders.forEach((placeholder) => {
+        const id = `div-gpt-${createGUID()}`;
+        placeholder.id = id;
+        adSlotsIds.push(`${id}:undefined;`);
+    });
+
+    if (adSlotsIds && adSlotsIds.length && window.digitalData) {
+        window.digitalData.page.attributes.adslots = adSlotsIds.toString();
+    }
+});
+
+const createGUID = () => {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+        const r = (Math.random() * 16) | 0,
+            v = c === 'x' ? r : (r & 0x3) | 0x8;
+        return v.toString(16);
+    });
+};

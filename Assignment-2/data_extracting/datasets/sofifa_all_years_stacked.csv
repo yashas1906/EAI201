@@ -1,0 +1,171 @@
+year,Team,ID,Formation,Overall,Attack,Midfield,Defence,Speed,Dribbling,Passing,Positioning,Crossing,Passing.1,Shooting,Aggression,Pressure,Defender line,Domestic prestige,International prestige,Players,Starting XI average age,Whole team average age
+2010,spain,1362,4-4-2 Flat,85,83,83,82,Balanced,Little,Short,Free form,Normal,Risky,Normal,Press,Medium,Cover,20,19,30,26.45,25.17
+2010,brazil,1370,4-1-2-1-2 Wide,84,83,81,82,Fast,Little,Short,Free form,Normal,Risky,Lots,Press,High,Cover,20,20,30,28.09,26.1
+2010,england,1318,4-2-3-1 Narrow,83,81,84,82,Fast,Little,Long,Organised,Lots,Normal,Lots,Double,Medium,Cover,20,17,30,27.55,26.93
+2010,france,1335,4-2-3-1 Narrow,83,82,82,82,Fast,Little,Mixed,Organised,Normal,Risky,Little,Press,Medium,Cover,20,19,30,26.55,26.17
+2010,italy,1343,4-4-2 Flat,83,83,81,80,Fast,Little,Short,Organised,Normal,Normal,Normal,Contain,Deep,Offside trap,20,19,30,28.91,27.17
+2010,argentina,1369,4-2-2-2,83,83,81,78,Fast,Little,Short,Free form,Normal,Risky,Lots,Contain,Deep,Cover,20,18,30,27.18,26.33
+2010,germany,1337,4-2-3-1 Narrow,82,81,79,79,Fast,Little,Mixed,Organised,Normal,Normal,Lots,Press,Medium,Cover,20,19,30,25.55,24.8
+2010,portugal,1354,4-3-3 Flat,82,77,81,79,Fast,Little,Short,Free form,Lots,Risky,Lots,Press,Medium,Offside trap,20,16,30,27.82,27.1
+2010,netherlands,105035,4-2-3-1 Narrow,80,81,80,76,Balanced,Little,Mixed,Organised,Lots,Risky,Normal,Press,Medium,Cover,20,17,25,26.82,26.4
+2010,russia,1357,4-5-1 Attack,80,79,77,76,Fast,Little,Mixed,Free form,Normal,Risky,Lots,Press,Medium,Cover,20,13,29,27.09,26.17
+2010,croatia,1328,4-1-2-1-2 Wide,78,77,74,73,Fast,Little,Mixed,Organised,Little,Risky,Normal,Press,Medium,Offside trap,20,13,30,26.82,26.37
+2010,czechia,1330,4-1-2-1-2 Wide,78,73,74,74,Balanced,Little,Long,Organised,Normal,Normal,Lots,Double,High,Cover,20,15,30,26.91,27.73
+2010,türkiye,1365,4-4-2 Flat,78,77,77,74,Fast,Little,Mixed,Organised,Lots,Risky,Lots,Double,Medium,Cover,20,14,30,26.91,25.47
+2010,uruguay,1377,03-05-2002,78,76,70,74,Fast,Little,Mixed,Free form,Lots,Normal,Lots,Press,Deep,Cover,20,11,30,24.45,25.73
+2010,sweden,1363,4-2-3-1 Narrow,77,78,73,74,Balanced,Little,Mixed,Organised,Lots,Risky,Lots,Double,Medium,Cover,20,11,30,26.27,25.67
+2010,mexico,1386,4-2-3-1 Narrow,77,73,74,74,Balanced,Little,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,15,30,27.09,26.2
+2010,belgium,1325,4-3-3 Flat,76,73,75,74,Balanced,Little,Long,Organised,Normal,Normal,Normal,Double,Medium,Cover,20,10,30,22.55,24.33
+2010,greece,1338,3-4-2-1,76,76,75,74,Balanced,Little,Mixed,Organised,Lots,Safe,Little,Contain,Deep,Offside trap,20,13,27,27,26.63
+2010,switzerland,1364,4-4-2 Flat,76,74,74,73,Balanced,Little,Mixed,Organised,Normal,Risky,Lots,Press,Medium,Cover,20,11,30,26.55,25.7
+2010,ukraine,1366,4-4-2 Flat,76,73,72,70,Balanced,Little,Long,Organised,Lots,Normal,Lots,Double,Medium,Cover,20,14,30,25.82,26
+2010,cameroon,1395,4-4-1-1 Attack,76,73,73,74,Fast,Little,Long,Organised,Normal,Risky,Lots,Press,High,Cover,20,13,30,26,26
+2010,denmark,1331,4-4-1-1 Attack,75,72,72,74,Balanced,Little,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,12,30,27.64,27
+2010,norway,1352,4-4-2 Flat,75,75,73,72,Fast,Little,Long,Organised,Lots,Normal,Lots,Double,High,Offside trap,20,10,30,26.64,27.33
+2010,republic of ireland,1355,4-4-2 Flat,75,72,74,73,Fast,Little,Long,Organised,Lots,Risky,Lots,Double,High,Cover,20,10,30,28,26.83
+2010,romania,1356,4-4-2 Flat,75,71,70,74,Fast,Little,Mixed,Organised,Lots,Normal,Lots,Press,Deep,Cover,20,10,30,27.27,27.23
+2010,scotland,1359,4-4-1-1 Attack,75,73,73,72,Fast,Little,Long,Organised,Lots,Normal,Lots,Double,Medium,Cover,20,11,30,26.82,26.6
+2010,paraguay,1375,05-03-2002,75,75,70,73,Balanced,Little,Mixed,Organised,Normal,Normal,Lots,Press,Medium,Cover,20,8,30,28.09,27.5
+2010,australia,1415,4-2-3-1 Narrow,75,71,71,68,Fast,Little,Long,Organised,Normal,Risky,Lots,Double,Medium,Cover,20,11,30,30.36,27.5
+2010,usa,1387,4-4-2 Flat,74,72,71,70,Fast,Little,Mixed,Free form,Normal,Safe,Normal,Press,High,Cover,20,12,30,25.82,25.4
+2010,austria,1322,4-4-2 Flat,73,71,67,70,Fast,Little,Long,Organised,Normal,Normal,Normal,Double,Medium,Cover,20,10,30,23.45,23.97
+2010,bulgaria,1327,4-4-2 Flat,73,70,70,68,Fast,Little,Mixed,Organised,Normal,Risky,Normal,Double,Medium,Cover,20,9,30,28.64,27.63
+2010,finland,1334,4-4-1-1 Attack,72,67,69,70,Fast,Little,Mixed,Organised,Normal,Normal,Normal,Double,Medium,Cover,20,6,30,28.82,27.7
+2010,poland,1353,4-4-2 Flat,72,69,68,67,Fast,Little,Mixed,Organised,Normal,Normal,Normal,Double,Medium,Cover,20,11,29,27.36,26.97
+2010,hungary,1886,4-2-3-1 Narrow,72,69,72,66,Fast,Little,Long,Organised,Normal,Normal,Lots,Double,Medium,Cover,20,7,29,26.73,27.38
+2010,ecuador,111465,4-4-1-1 Attack,72,67,69,65,Fast,Little,Mixed,Organised,Normal,Normal,Lots,Press,Medium,Cover,20,9,30,28.18,27.83
+2010,south africa,111099,4-1-2-1-2 Wide,72,70,71,67,Fast,Little,Long,Organised,Normal,Normal,Lots,Double,High,Cover,20,8,27,26.64,26.96
+2010,northern ireland,110081,4-4-2 Flat,71,66,66,70,Fast,Little,Long,Organised,Normal,Risky,Lots,Double,High,Cover,20,5,30,27.27,25.43
+2010,slovenia,1361,4-4-2 Flat,70,70,67,67,Fast,Little,Long,Organised,Normal,Normal,Lots,Double,Medium,Cover,20,5,30,25.64,25.67
+2010,korea republic,974,4-1-2-1-2 Wide,70,67,69,65,Fast,Little,Mixed,Organised,Normal,Normal,Lots,Press,Medium,Cover,20,10,30,26.55,25.57
+2010,china pr,1413,4-4-1-1 Attack,66,63,64,64,Fast,Little,Long,Organised,Normal,Normal,Lots,Double,High,Cover,20,4,30,26.55,26.93
+2010,new zealand,111473,4-3-3 Flat,62,60,57,58,Fast,Little,Long,Organised,Lots,Risky,Lots,Double,High,Cover,20,6,30,29.18,25.97
+2014,spain,1362,4-3-3 Attack,84,86,84,82,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,20,23,26.09,24.74
+2014,germany,1337,4-3-3 Attack,83,82,84,78,Fast,Little,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,19,23,23.91,23.91
+2014,brazil,1370,4-3-3 False 9,83,83,81,83,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,20,23,25.91,24.83
+2014,argentina,1369,4-1-3-2,82,85,82,79,Slow,Lots,Mixed,Organised,Normal,Normal,Lots,Press,Medium,Cover,20,18,23,27.09,27.13
+2014,belgium,1325,4-1-4-1,81,75,81,79,Slow,Normal,Mixed,Organised,Normal,Normal,Little,Press,Medium,Cover,20,10,23,23.82,24.78
+2014,france,1335,4-3-3 Holding,81,82,80,80,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,18,23,25.09,24.91
+2014,england,1318,4-4-2 Flat,80,85,79,78,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,20,17,23,22.91,23.91
+2014,italy,1343,3-1-4-2,80,79,78,78,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Deep,Cover,20,19,23,25.82,25.65
+2014,portugal,1354,4-3-3 Holding,80,82,79,80,Balanced,Normal,Short,Organised,Normal,Safe,Normal,Press,Medium,Cover,20,16,23,27.45,25.48
+2014,netherlands,105035,05-03-2002,79,84,76,75,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,17,23,25.18,25.13
+2014,türkiye,1365,4-4-2 Flat,78,76,79,76,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,14,23,25.27,25.83
+2014,colombia,111109,4-4-2 Flat,77,77,78,75,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,6,23,26.73,26.17
+2014,russia,1357,4-2-3-1 Wide,77,76,75,75,Balanced,Normal,Mixed,Organised,Lots,Risky,Normal,Press,Medium,Cover,20,12,23,27.36,26.09
+2014,côte d'ivoire,111112,4-3-3 Attack,76,77,74,74,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,20,11,23,27.55,25.96
+2014,switzerland,1364,4-2-3-1 Narrow,76,74,76,77,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,11,23,23.64,24.17
+2014,uruguay,1377,4-4-2 Holding,76,82,75,76,Fast,Normal,Mixed,Organised,Little,Normal,Lots,Press,Deep,Cover,20,12,23,28.09,27.22
+2014,chile,111459,3-1-4-2,76,77,75,70,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,10,23,25.55,25.78
+2014,czechia,1330,4-2-3-1 Wide,75,73,74,73,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,14,23,26.36,27
+2014,poland,1353,4-2-3-1 Wide,75,77,73,74,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,11,23,26.18,24.96
+2014,sweden,1363,4-3-3 Holding,75,77,74,74,Balanced,Normal,Short,Organised,Normal,Safe,Lots,Press,Medium,Cover,20,11,23,27.64,26.7
+2014,cameroon,1395,4-1-4-1,75,75,73,76,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,20,12,23,25.55,24.65
+2014,denmark,1331,4-2-3-1 Wide,74,75,74,74,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,12,23,24.09,25
+2014,greece,1338,4-2-3-1 Wide,74,76,72,76,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Deep,Cover,20,13,23,25.64,25.17
+2014,paraguay,1375,4-2-3-1 Wide,74,78,73,70,Slow,Lots,Mixed,Organised,Little,Safe,Normal,Press,Deep,Cover,20,8,23,30.73,29.61
+2014,mexico,1386,05-03-2002,74,78,73,72,Balanced,Normal,Mixed,Organised,Normal,Risky,Normal,Press,Medium,Cover,20,15,23,25.82,25.43
+2014,united states,1387,4-4-2 Flat,74,75,72,71,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,12,23,27.45,25.83
+2014,austria,1322,4-2-3-1 Wide,73,72,74,71,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,10,23,25,24.61
+2014,republic of ireland,1355,4-4-1-1 Midfield,73,75,75,73,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,10,23,27.82,27.22
+2014,romania,1356,4-2-3-1 Wide,73,73,72,71,Balanced,Little,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,20,10,23,26.09,26.17
+2014,scotland,1359,4-2-3-1 Wide,73,75,74,68,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,9,23,26,26.83
+2014,slovenia,1361,4-2-3-1 Wide,73,71,73,71,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,20,10,23,26.36,26.17
+2014,wales,1367,4-2-3-1 Wide,73,70,74,72,Balanced,Little,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,8,23,24.64,25.13
+2014,peru,111108,4-3-3 Flat,72,77,69,70,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,6,23,26.91,27.39
+2014,norway,1352,4-4-2 Flat,72,71,73,70,Fast,Normal,Mixed,Organised,Normal,Risky,Normal,Press,Deep,Cover,20,9,23,24.91,24.22
+2014,ecuador,111465,4-4-1-1 Midfield,72,73,73,67,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,7,23,26,26.3
+2014,korea republic,974,4-2-3-1 Wide,72,75,71,69,Balanced,Normal,Mixed,Organised,Normal,Risky,Normal,Press,Medium,Cover,20,12,23,24.27,25.04
+2014,venezuela,111487,4-4-2 Holding,71,72,69,72,Slow,Normal,Short,Organised,Little,Safe,Little,Press,Deep,Cover,20,5,23,28.09,26.96
+2014,northern ireland,110081,4-4-1-1 Midfield,70,71,69,69,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,5,23,27.18,26.35
+2014,egypt,111130,4-2-3-1 Wide,69,70,67,64,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,10,23,25.18,27.17
+2014,finland,1334,4-5-1 Attack,69,68,71,69,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Contain,Deep,Cover,20,6,23,26.73,25.13
+2014,hungary,1886,3-4-2-1,69,69,67,67,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,20,7,23,26.09,24.61
+2014,australia,1415,4-2-3-1 Wide,69,72,70,65,Balanced,Normal,Mixed,Organised,Lots,Safe,Little,Press,Medium,Cover,20,11,23,25.91,24.91
+2014,south africa,111099,4-2-3-1 Wide,69,65,69,69,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,20,8,23,23.27,22.78
+2014,bulgaria,1327,4-2-3-1 Wide,68,66,69,67,Balanced,Normal,Mixed,Organised,Normal,Normal,Little,Contain,Medium,Cover,20,10,23,26.27,26.52
+2014,new zealand,111473,4-3-3 False 9,65,65,55,64,Balanced,Lots,Mixed,Organised,Normal,Normal,Little,Press,Deep,Cover,20,6,23,22.73,24.17
+2014,bolivia,111451,4-1-2-1-2 Wide,63,68,57,63,Slow,Normal,Short,Organised,Little,Safe,Normal,Press,Medium,Cover,20,2,23,25.27,25.13
+2014,india,111466,4-4-2 Flat,57,59,54,53,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Deep,Cover,20,1,23,24.82,23.87
+2018,germany,1337,4-2-3-1 Wide,85,84,85,85,Slow,Normal,Mixed,Organised,Normal,Safe,Little,Press,Medium,Cover,10,10,23,26.55,24.96
+2018,spain,1362,4-3-3 Attack,85,84,86,85,Slow,Normal,Short,Organised,Little,Safe,Little,Press,High,Cover,10,9,23,26.36,25.91
+2018,brazil,1370,4-3-3 Holding,85,86,83,85,Balanced,Lots,Mixed,Organised,Little,Normal,Lots,Double,High,Cover,10,10,23,26.73,27.09
+2018,belgium,1325,3-4-2-1,84,86,83,85,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,High,Cover,10,7,23,26.91,26.22
+2018,france,1335,4-2-3-1 Wide,84,82,85,82,Balanced,Normal,Short,Organised,Normal,Safe,Normal,Press,Medium,Cover,10,9,23,24.36,24.57
+2018,italy,1343,3-1-4-2,83,85,81,85,Fast,Normal,Long,Organised,Lots,Normal,Lots,Contain,Deep,Cover,10,9,23,26.55,25.65
+2018,england,1318,5-2-1-2,82,84,81,81,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,8,23,25,24.65
+2018,portugal,1354,4-1-3-2,82,85,82,80,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,8,23,27.09,26.91
+2018,argentina,1369,4-3-3 Defend,82,87,80,80,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,High,Cover,10,9,23,28,27.04
+2018,uruguay,1377,4-4-2 Flat,81,86,76,79,Balanced,Normal,Mixed,Organised,Normal,Risky,Normal,Double,Medium,Cover,10,7,23,26.27,26.61
+2018,netherlands,105035,05-03-2002,80,79,80,80,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,8,23,23.82,24.65
+2018,colombia,111109,4-2-2-2,79,81,77,78,Fast,Normal,Mixed,Organised,Normal,Risky,Lots,Press,Medium,Cover,10,7,23,26.64,26.48
+2018,russia,1357,05-03-2002,78,80,78,76,Balanced,Lots,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,6,23,28.09,27.35
+2018,switzerland,1364,4-2-3-1 Narrow,78,74,77,78,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,5,23,26.64,25.7
+2018,mexico,1386,4-4-1-1 Midfield,78,79,79,75,Balanced,Normal,Mixed,Organised,Normal,Normal,Lots,Press,High,Cover,10,7,23,26.18,26.91
+2018,côte d'ivoire,111112,4-3-3 Defend,77,76,78,77,Fast,Normal,Long,Organised,Normal,Risky,Lots,Double,Medium,Cover,10,6,23,24.73,25.35
+2018,austria,1322,4-2-3-1 Wide,77,80,77,75,Balanced,Little,Mixed,Organised,Normal,Normal,Normal,Double,Medium,Cover,10,4,23,25.91,24.74
+2018,denmark,1331,4-3-3 Attack,77,76,79,75,Balanced,Normal,Mixed,Organised,Normal,Risky,Normal,Press,Medium,Cover,10,5,23,26.45,25.74
+2018,poland,1353,5-2-1-2,77,82,76,75,Balanced,Normal,Mixed,Free form,Normal,Normal,Normal,Contain,Medium,Cover,10,5,23,27,26.52
+2018,chile,111459,4-3-3 Defend,77,77,80,75,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,High,Cover,10,7,23,28.09,26.26
+2018,greece,1338,4-2-3-1 Wide,76,78,74,77,Fast,Normal,Long,Organised,Lots,Risky,Lots,Contain,Deep,Cover,10,6,23,28.09,26.04
+2018,türkiye,1365,4-2-3-1 Wide,76,78,77,74,Balanced,Normal,Mixed,Organised,Normal,Safe,Normal,Press,Medium,Cover,10,6,23,24.91,24.65
+2018,czechia,1330,4-4-2 Flat,75,75,74,73,Fast,Normal,Long,Organised,Normal,Risky,Normal,Double,High,Cover,10,5,23,25.09,24.83
+2018,republic of ireland,1355,4-2-3-1 Wide,75,75,74,75,Balanced,Normal,Mixed,Organised,Normal,Safe,Lots,Press,High,Cover,10,5,23,27.64,26.52
+2018,slovenia,1361,4-2-3-1 Wide,75,72,76,72,Balanced,Little,Mixed,Organised,Normal,Normal,Normal,Press,High,Cover,10,5,23,27.09,25.96
+2018,sweden,1363,4-4-2 Flat,75,76,75,75,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,5,23,27.91,26.43
+2018,paraguay,1375,4-2-3-1 Wide,75,75,75,72,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,4,23,27.73,28.09
+2018,norway,1352,4-4-2 Flat,74,74,74,73,Fast,Normal,Long,Organised,Normal,Risky,Normal,Press,Medium,Cover,10,4,23,24.73,24.57
+2018,scotland,1359,4-2-3-1 Wide,74,75,74,74,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,4,23,26.18,25.83
+2018,wales,1367,3-4-2-1,74,82,71,77,Fast,Normal,Long,Organised,Normal,Normal,Lots,Press,Medium,Cover,10,4,23,27.82,25.78
+2018,united states,1387,4-3-3 Holding,74,72,73,74,Balanced,Normal,Mixed,Organised,Normal,Risky,Normal,Double,Medium,Cover,10,6,23,22.91,23.87
+2018,venezuela,111487,4-4-2 Flat,73,77,73,70,Fast,Normal,Long,Organised,Normal,Normal,Normal,Press,Deep,Cover,10,2,23,23.82,23.91
+2018,australia,1415,4-2-3-1 Wide,73,69,73,71,Balanced,Little,Mixed,Organised,Normal,Normal,Normal,Double,Medium,Cover,10,5,23,25.45,26.26
+2018,peru,111108,4-1-4-1,72,73,73,72,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Double,Medium,Cover,10,3,23,26.55,25.65
+2018,saudi arabia,111114,4-2-3-1 Wide,72,73,72,73,Fast,Lots,Mixed,Organised,Normal,Risky,Lots,Press,Medium,Cover,10,4,23,29.55,27.17
+2018,egypt,111130,4-2-3-1 Wide,72,68,75,71,Balanced,Normal,Mixed,Organised,Normal,Normal,Little,Press,Medium,Cover,10,5,23,26.18,26.74
+2018,iceland,1341,4-4-1-1 Midfield,72,73,74,69,Balanced,Normal,Mixed,Organised,Normal,Risky,Normal,Double,Medium,Cover,10,2,23,29.27,27.78
+2018,romania,1356,4-2-3-1 Wide,72,72,72,70,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,5,23,27.09,26.04
+2018,ecuador,111465,4-4-2 Flat,72,70,71,73,Balanced,Lots,Mixed,Organised,Lots,Safe,Lots,Press,Medium,Cover,10,5,23,26.82,25.91
+2018,cameroon,1395,4-4-2 Flat,72,77,74,69,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,5,23,25.45,24.78
+2018,northern ireland,110081,4-1-4-1,71,71,71,71,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,2,23,28.18,27.09
+2018,hungary,1886,3-4-3 Flat,71,73,69,71,Fast,Normal,Mixed,Organised,Normal,Normal,Lots,Press,Medium,Cover,10,4,23,27,26.57
+2018,south africa,111099,4-3-3 Defend,71,72,70,70,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Deep,Cover,10,4,23,25.36,24.35
+2018,bulgaria,1327,4-2-3-1 Wide,70,70,69,67,Balanced,Normal,Mixed,Organised,Normal,Normal,Normal,Press,Medium,Cover,10,5,23,27.27,27.09
+2018,finland,1334,4-4-1-1 Attack,70,71,69,66,Balanced,Normal,Mixed,Organised,Normal,Normal,Lots,Contain,Deep,Cover,10,3,23,23.82,25.26
+2018,canada,111455,4-1-4-1,69,73,72,66,Fast,Normal,Long,Organised,Lots,Normal,Lots,Contain,Deep,Cover,10,2,23,24.91,26.26
+2018,china pr,1413,4-3-3 Holding,69,67,68,68,Balanced,Normal,Mixed,Organised,Lots,Normal,Normal,Press,Medium,Cover,10,3,23,27.91,26.61
+2018,bolivia,111451,5-4-1 Flat,67,75,66,66,Balanced,Normal,Mixed,Organised,Lots,Normal,Lots,Press,Medium,Cover,10,1,23,29.82,27.26
+2018,new zealand,111473,4-3-3 Attack,66,71,65,64,Fast,Normal,Long,Organised,Normal,Risky,Lots,Double,High,Cover,10,2,23,25.18,23.96
+2018,india,111466,4-4-2 Holding,60,62,58,58,Balanced,Normal,Mixed,Organised,Normal,Safe,Normal,Contain,Medium,Cover,10,1,23,25.73,24.39
+2022,france,1335,03-05-2002,85,85,86,83,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,10,23,27.36,25.96
+2022,germany,1337,4-2-3-1 Wide,85,83,85,81,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,10,23,25.64,25.78
+2022,portugal,1354,4-3-3 Holding,84,85,83,85,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,8,23,29.09,27.35
+2022,spain,1362,4-3-3 Holding,84,83,85,83,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,9,23,25.55,26.48
+2022,england,1318,4-3-3 Attack,83,85,83,82,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,8,23,26.09,24.43
+2022,belgium,1325,3-4-2-1,83,83,82,80,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,8,23,29.18,28.87
+2022,italy,1343,4-3-3 Flat,83,84,84,82,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,9,23,27.18,27.13
+2022,argentina,1369,4-3-3 Holding,83,86,81,81,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,9,23,27.82,27.35
+2022,netherlands,105035,5-2-1-2,82,82,81,83,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,8,23,26,25.7
+2022,brazil,1370,4-3-3 Holding,80,80,80,80,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,10,23,26.45,25.87
+2022,denmark,1331,4-2-3-1 Wide,78,77,79,78,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,6,23,27.09,26.52
+2022,austria,1322,4-2-3-1 Narrow,77,79,78,77,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,4,23,26.55,26.61
+2022,czechia,1330,3-4-2-1,77,79,76,76,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,5,23,25.18,25.78
+2022,poland,1353,4-3-2-1,77,81,74,75,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,5,23,26.73,26.65
+2022,mexico,1386,4-3-3 Holding,77,79,78,74,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,7,23,26.09,26.83
+2022,norway,1352,4-1-4-1,76,81,76,73,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,4,23,23.82,25.04
+2022,scotland,1359,5-2-1-2,76,73,76,77,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,4,23,25.82,26.17
+2022,sweden,1363,4-3-3 Attack,76,78,75,76,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,5,23,25.45,26.87
+2022,ukraine,1366,4-1-4-1,76,76,77,74,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,6,23,25.64,26.35
+2022,united states,1387,4-3-3 Holding,75,75,75,75,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,6,23,22.18,23.39
+2022,wales,1367,4-2-3-1 Wide,74,74,74,72,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,4,23,27.27,25.78
+2022,greece,1338,4-3-3 Flat,73,72,75,73,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,6,23,25.45,25
+2022,republic of ireland,1355,05-02-2003,73,69,73,74,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,5,23,26.82,25.13
+2022,hungary,1886,05-02-2003,73,74,69,73,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,4,23,26.27,26.04
+2022,canada,111455,4-3-3 Defend,73,75,73,70,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,2,23,27.18,26.26
+2022,romania,1356,4-3-3 Holding,72,72,72,68,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,5,23,27.45,25.52
+2022,finland,1334,05-03-2002,71,72,72,67,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,3,23,27.91,27.35
+2022,northern ireland,110081,05-03-2002,70,65,70,71,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,2,23,28.55,27.39
+2022,australia,1415,4-2-3-1 Narrow,70,75,69,70,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,5,23,27.27,27.48
+2022,iceland,1341,4-3-3 Flat,69,70,68,68,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,2,23,24.82,25.61
+2022,china ,1413,4-4-2 Flat,69,70,69,67,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,3,23,29.36,29.13
+2022,new zealand,111473,4-3-3 Attack,68,69,67,68,Slow,Little,Short,Organised,Little,Safe,Little,Contain,Deep,Cover,10,2,23,25.09,24.65

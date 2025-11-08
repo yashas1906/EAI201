@@ -1,0 +1,15 @@
+rank,nation,gold,silver,bronze,total
+1,Brazil,5,2,2,9
+2,Germany,4,4,4,12
+3,Italy,4,2,1,7
+4,Argentina,3,3,0,6
+5,France,2,2,2,6
+6,Uruguay,2,0,0,2
+7,England,1,0,0,1
+7,Spain,1,0,0,1
+9,Netherlands,0,3,1,4
+10,Czech Republic,0,2,0,2
+10,Hungary,0,2,0,2
+12,Croatia,0,1,2,3
+12,Sweden,0,1,2,3
+Totals (13 entries),Totals (13 entries),22,22,14,58
